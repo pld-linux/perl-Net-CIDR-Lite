@@ -10,7 +10,8 @@ Summary(pl):	Net::CIDR::Lite - analiza, przetwarzanie i wyszukiwanie bloków siec
 Name:		perl-Net-CIDR-Lite
 Version:	0.15
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ecda840da7e401c96469e04083cc2af1
