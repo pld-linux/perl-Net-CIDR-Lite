@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	CIDR-Lite
+%define		pdir	Net
+%define		pnam	CIDR-Lite
 Summary:	Net::CIDR::Lite - parse, manipulate and lookup IP network blocks
 Summary(pl):	Net::CIDR::Lite - analiza, przetwarzanie i wyszukiwanie bloków sieci IP
 Name:		perl-Net-CIDR-Lite
