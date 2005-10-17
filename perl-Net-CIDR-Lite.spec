@@ -9,7 +9,7 @@ Summary:	Net::CIDR::Lite - parse, manipulate and lookup IP network blocks
 Summary(pl):	Net::CIDR::Lite - analiza, przetwarzanie i wyszukiwanie bloków sieci IP
 Name:		perl-Net-CIDR-Lite
 Version:	0.18
-Release:	1
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
