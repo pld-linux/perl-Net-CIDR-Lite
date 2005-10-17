@@ -9,14 +9,14 @@ Summary:	Net::CIDR::Lite - parse, manipulate and lookup IP network blocks
 Summary(pl):	Net::CIDR::Lite - analiza, przetwarzanie i wyszukiwanie bloków sieci IP
 Name:		perl-Net-CIDR-Lite
 Version:	0.18
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c4c839713b701458e880bf2d058cbab4
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	perl-devel >= 1:5.6.1
+BuildRequires:	rpm-perlprov >= 4.0.2-112.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -31,7 +31,7 @@ Modu³ Net::CIDR::Lite analizuje bloki CIDR IPv4.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor
+	INSTALLDIRS=site
 %{__make}
 
 %{?with_tests:%{__make} test}
@@ -48,6 +48,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%dir %{perl_vendorlib}/Net/CIDR
-%{perl_vendorlib}/Net/CIDR/Lite.pm
+%dir %{perl_sitelib}/Net/CIDR
+%{perl_sitelib}/Net/CIDR/Lite.pm
 %{_mandir}/man3/*
