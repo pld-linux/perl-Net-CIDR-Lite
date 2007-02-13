@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	CIDR-Lite
 Summary:	Net::CIDR::Lite - parse, manipulate and lookup IP network blocks
-Summary(pl.UTF-8):   Net::CIDR::Lite - analiza, przetwarzanie i wyszukiwanie bloków sieci IP
+Summary(pl.UTF-8):	Net::CIDR::Lite - analiza, przetwarzanie i wyszukiwanie bloków sieci IP
 Name:		perl-Net-CIDR-Lite
 Version:	0.20
 Release:	1
