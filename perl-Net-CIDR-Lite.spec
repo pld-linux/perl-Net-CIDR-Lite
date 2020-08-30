@@ -14,9 +14,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	12280b3754886b876918f03f53aee4f5
-URL:		http://search.cpan.org/dist/Net-CIDR-Lite/
+URL:		https://metacpan.org/release/Net-CIDR-Lite
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -50,4 +51,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %dir %{perl_vendorlib}/Net/CIDR
 %{perl_vendorlib}/Net/CIDR/Lite.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/Net::CIDR::Lite.3pm*
