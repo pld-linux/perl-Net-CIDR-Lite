@@ -12,7 +12,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	https://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/Net/STIGTSP/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	080e781eefc24b4d4fb335e2dbbdcaf7
 URL:		https://metacpan.org/release/Net-CIDR-Lite
 BuildRequires:	perl-devel >= 1:5.8.0
