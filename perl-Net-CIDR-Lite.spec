@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	Net
 %define		pnam	CIDR-Lite
@@ -48,7 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
+%doc Changes README
 %dir %{perl_vendorlib}/Net/CIDR
 %{perl_vendorlib}/Net/CIDR/Lite.pm
 %{_mandir}/man3/Net::CIDR::Lite.3pm*
